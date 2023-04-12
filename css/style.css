@@ -1,0 +1,439 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+   display: block;
+}
+
+body {
+   line-height: 1;
+}
+
+ol,
+ul {
+   list-style: none;
+}
+
+blockquote,
+q {
+   quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+   content: '';
+   content: none;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+/* Mobile Version */
+
+/* BODY */
+body {
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   /* background-color: #ffffff; */
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   overflow-x: hidden;
+
+}
+
+/* HEADER */
+
+header {
+   padding: 16px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.HeaderText {
+   font-size: 28px;
+   color: rgba(19, 24, 63, 1);
+   font-weight: 800;
+}
+
+.HeaderButton {
+   width: 140px;
+   height: 48px;
+   background: rgba(19, 24, 63, 1);
+   border-radius: 28px;
+   font-size: 16px;
+   color: rgba(255, 255, 255, 1);
+   font-weight: 700;
+   cursor: pointer;
+   border: none;
+}
+
+.HeaderButton:hover {
+   background: #666CA3;
+}
+
+/* MAIN */
+
+main {
+   padding: 16px;
+   /* background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%); */
+
+}
+
+.Budget {
+   display: flex;
+   flex-direction: column;
+
+}
+
+.BudgetText {
+   display: flex;
+   flex-direction: column;
+   gap: 26px;
+   width: 342px;
+   align-items: start;
+   margin: 0 auto;
+}
+
+.BudgetSkill {
+   color: rgba(19, 24, 63, 1);
+   font-size: 40px;
+   font-weight: 800;
+   line-height: 50px;
+}
+
+.BudgetCourses {
+   font-size: 16px;
+   color: rgba(131, 134, 154, 1);
+   font-weight: 500;
+   line-height: 26px;
+   width: 100%;
+}
+
+.MainButton {
+   width: 168px;
+   height: 56px;
+   background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+   border-radius: 32px;
+   margin-bottom: 46px;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-weight: 700;
+   border: none;
+   cursor: pointer;
+}
+
+.MainButton:hover {
+   background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+   border-radius: 31.5px;
+
+}
+
+.HeroImg {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 68px;
+}
+
+.TabletPhoto {
+   display: none;
+}
+
+/* MAIN SECTION */
+.CardContainer {
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
+
+.CardHead {
+   width: 342px;
+   height: 120px;
+   background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+   margin-bottom: 100px;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 24px;
+   font-weight: 800;
+   color: #ffffff;
+   margin: 0 auto;
+}
+
+.CardPopular {
+   width: 286px;
+   line-height: 32px;
+
+}
+
+.Card {
+   width: 284px;
+   height: 222px;
+   background: rgba(255, 255, 255, 1);
+   padding: 0 28px 32px 28px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   border-radius: 10px;
+   margin: 0 auto;
+}
+
+.CardImg {
+   width: 56px;
+   margin-top: -24px;
+}
+
+.CardTextContainer {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.CardH3 {
+   font-size: 20px;
+   color: rgba(19, 24, 63, 1);
+   font-weight: 800;
+}
+
+.CardParagraph {
+   font-size: 16px;
+   color: rgba(131, 134, 154, 1);
+   font-weight: 500;
+   line-height: 26px;
+}
+
+.CardButton {
+   font-size: 18px;
+   color: rgba(247, 71, 128, 1);
+   font-weight: 700;
+   background-color: #ffffff;
+   border: none;
+   outline: none;
+   text-align: start;
+   margin-left: -6px;
+}
+
+.LastCard {
+   margin-bottom: 56px;
+}
+
+/* FOOTER */
+footer {
+   background-color: #13183F;
+   padding: 36px 16px 36px 16px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.FooterSkilled {
+   font-size: 28px;
+   font-weight: 800;
+   color: #FFFFFF;
+   margin-top: 6px;
+}
+
+.FooterButton {
+   width: 140px;
+   height: 48px;
+   background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+   border-radius: 28px;
+   color: #ffffff;
+   font-size: 16px;
+   font-weight: 700;
+   border: none;
+   cursor: pointer;
+}
+
+.FooterButton:hover {
+   background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+   border-radius: 28px;
+}
+
+/* TABLET VERSION */
+
+@media screen and (min-width: 768px) {
+   body {
+      background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+
+   }
+
+   main {
+      background-image: url(../img/image-hero-tablet.png);
+      background-repeat: no-repeat;
+      background-size: 640px 640px;
+      background-position: top -126px right -270px;
+   }
+
+   .Budget {
+      display: flex;
+      width: 654px;
+      flex-direction: row;
+
+   }
+
+   .BudgetText {
+      flex-basis: 50%;
+      justify-content: unset;
+      margin: auto 0;
+      margin-top: 76px;
+   }
+
+   .MobilePhoto {
+      display: none;
+   }
+
+   .CardContainer {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 32px;
+      background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+      width: 750px;
+      margin: 100px auto 0 auto;
+   }
+
+   .CardHead {
+      width: 340px;
+      height: 260px;
+
+   }
+
+   .CardPopular {
+      margin-bottom: 106px;
+   }
+
+   footer {
+      padding: 22px;
+   }
+
+}
+
+/* DESKTOP VERSION */
+@media screen and (min-width: 1124px) {
+   main {
+      background-image: url(../img/image-hero-desktop.png);
+      background-repeat: no-repeat;
+      background-size: 990px 936px;
+      background-position: top -170px right -326px;
+   }
+
+   .Top {
+      width: 788px;
+      position: absolute;
+      padding-left: 116px;
+   }
+
+   .Budget {
+      margin: 130px 100px 100px 100px;
+   }
+
+   .CardContainer {
+      width: 1100px;
+      margin: 380px auto 0 auto;
+
+   }
+
+}
